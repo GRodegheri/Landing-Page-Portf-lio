@@ -9,9 +9,7 @@
 }
 
 body {
-    font-size: 100%;
-    background-image: url(https://media.giphy.com/media/22bAUMuLEE1mvSUr58/giphy-downsized-large.gif);
-    background-size: 100%;
+    background-image: linear-gradient(to right bottom, #4169e1, #654397, #552757, #321627, #000000);;
 }
 /* font-family: 'Righteous', cursive;
 font-family: 'Sarala', sans-serif; */
@@ -93,6 +91,7 @@ font-family: 'Sarala', sans-serif; */
     font-weight: 400;
     font-size: 18px;
     color: #2f2325;
+    cursor: pointer;
 }
 
 .main-secao-primaria-botao:hover {
@@ -170,8 +169,64 @@ p {
 .main-logo-contato {
     width: 80px;
     height: 80px;
-    
-    
-    
 }
 
+.fa-brands {
+    font-size: 100px;
+}
+
+.fa-whatsapp {
+    color: #34af23;
+}
+
+.fa-whatsapp:hover {
+    color: darkgreen;
+}
+
+.fa-youtube {
+    color: #bb0000;
+    background-color: white;
+        
+}
+
+.fa-youtube:hover {
+    color: darkred;
+    background-color: black;
+}
+
+.fa-instagram {
+    color: #517fa4;
+}
+
+.fa-instagram:hover {
+    color: darkblue;
+}
+
+.fa-linkedin {
+    color: #0976b4;
+}
+
+.fa-linkedin:hover {
+    color: #0130b2;
+}
+
+.fa-github {
+    color: #171515;
+
+}
+
+.fa-github:hover {
+    color: #fff;
+}
+
+.port-estrutura {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.port-projetos {
+    width: 150px;
+    height: 100px;
+}
